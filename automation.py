@@ -4,6 +4,7 @@ from selenium import webdriver
 driver = webdriver.Edge()
 
 # Open the login page
+# driver.get("file:///path_to_your_html_file/index.html")  # Replace with the actual path
 driver.get("file:///C:/Users/Dell/Desktop/Python/Projects/Script/index.html")
 
 # Find the username and password fields and submit button
